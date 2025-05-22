@@ -1,0 +1,20 @@
+
+[
+    {
+    "nama": "Muhammad Raja Faiz",
+    "umur": 21,
+    "pekerjaan": "Mahasiswa",
+    "NIM": "2217020165",
+    "hobi": [
+        "gaming",
+        "nonton film",
+        "Berenang"
+    ],
+    "pembimbing" : {
+        "nama": "Ozzy Secio Riza",
+        "gelar": "M.Kom",
+        "universitas": "Universitas Islam Negerro Imam Bonjol"
+    }
+    
+}
+]
