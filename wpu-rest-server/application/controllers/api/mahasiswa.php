@@ -23,7 +23,7 @@ class mahasiswa extends REST_Controller {
     }
 
     public function index_get() {
-        $id = $this->get('id');
+        $id = $this->get()['id'] ?? null;
         if ($id == null) {
             $mahasiswa = $this->mahasiswa->getMahasiswa();
         } else {
@@ -44,7 +44,7 @@ class mahasiswa extends REST_Controller {
     }
 
     public function index_delete() {
-    $id = $this->delete('id');
+    $id = $this->delete()['id'] ?? null;
 
     if ($id == null) {
         $this->response([
