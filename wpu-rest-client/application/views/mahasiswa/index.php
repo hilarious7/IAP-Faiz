@@ -5,11 +5,15 @@
         <!-- Flash message handled by JS -->
     <?php endif; ?>
 
-    <div class="row mt-4">
-        <div class="col-md-8">
-            <a href="<?= base_url(); ?>mahasiswa/tambah" class="btn btn-primary shadow-sm mb-3 rounded-pill px-4 py-2 text-white d-flex align-items-center transition-btn">
-                <i class="fas fa-user-plus mr-2"></i> Tambah Data Mahasiswa
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-8 d-flex align-items-center px-0">
+            <a href="<?= base_url(); ?>mahasiswa/tambah"
+               class="btn btn-gradient-primary shadow rounded-pill px-4 py-2 text-white d-flex align-items-center transition-btn mr-3"
+               style="font-size: 1rem; font-weight: 500; background: linear-gradient(90deg, #17a2b8 0%, #007bff 100%); border: none; min-width: 180px;">
+                <i class="fas fa-user-plus mr-2" style="font-size: 1.1rem;"></i>
+                Tambah Data
             </a>
+
         </div>
     </div>
 

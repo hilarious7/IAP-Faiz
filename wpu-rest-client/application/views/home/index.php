@@ -197,10 +197,10 @@
                 <p class="card-text">SD 48 Kuranji Padang & SMP N 30 Padang.</p>
               </div>
               <div class="card-footer">
-                <span class="badge badge-pill badge-success"><i class="fas fa-book"></i> Pendidikan Dasar</span>
+                <span class="badge badge-pill badge-success"><i class="fas fa-book"></i> Pendidikan Dasar dan Menengah</span>
               </div>
             </div>
-          </div>
+          </div> 
           <!-- Card 3 -->
           <div class="col-md-4 mb-4">
             <div class="card shadow h-100">
